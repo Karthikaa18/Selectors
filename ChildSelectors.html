@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Child Selectors</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		div>h1
+		{
+			color: green;
+		}
+		div>p
+		{
+			color: red;
+		}
+		p>q
+		{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Child Selectors</h1>
+		<p>The child combinator (>) is placed between two CSS selectors.</p>
+		<p>It matches only those elements matched by the second selector that are the direct children of elements matched by the first.<q>Elements matched by the second selector must be the immediate children of the elements matched by the first selector.</q></p>
+	</div>
+</body>
+</html>
